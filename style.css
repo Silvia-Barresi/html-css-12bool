@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+[class*="col-"]{
+  background-color: #b2b2ff;
+  min-height: 140px;
+  border: 1px solid #8000ff;
+}
+
+/* nested style */
+
+.containernest>[class*="col-"]{
+  background-color: #6666ff;
+  border:1px solid #ffffff;
+}
